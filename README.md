@@ -1,3 +1,21 @@
+## 👩‍💻 Mis Aportes y Responsabilidades — Eliana Sarah Moguilevsky
+
+* **Seguridad, Autenticación y Gestión de Usuarios:**
+  * Implementación del flujo completo de recuperación de contraseña mediante tokens temporales de un solo uso con vencimiento a 15 minutos (`crypto` + `Nodemailer`).
+  * Desarrollo de políticas de seguridad de contraseñas: hasheo criptográfico con `crypto.scrypt` + *salt* aleatorio, comparación segura (`timingSafeEqual`) y validación de historial en el modelo de usuario para impedir la reutilización de las últimas 5 claves.
+  * Creación del módulo de autogestión de perfil para alumnos (`/alumnos/mi-perfil`) con actualización de datos personales.
+
+* **Lógica de Negocio, Turnos y Sucursales (Backend + Vistas Pug):**
+  * Implementación del control de cupos máximos (**capping** de hasta 8 alumnos por turno, sucursal y horario) y consulta dinámica de disponibilidad en tiempo real (`/nuevoTurno` y `/disponibilidad`).
+  * Desarrollo integral del CRUD de sucursales (rutas, vistas y refactorización de `SucursalModel` con índice único para garantizar nombres irrepetibles).
+  * Ampliación de modelos (`Alumno` y `Profesor`) con validación de datos (DNI, email, teléfono, fecha de nacimiento) e implementación de baja lógica (activación/desactivación) y mejora de vistas y navegación.
+
+* **Despliegue, QA y Documentación Técnica:**
+  * Configuración del despliegue en producción en **Vercel** (`vercel.json`) conectado a **MongoDB Atlas**.
+  * Diseño y ejecución de pruebas funcionales y de casos límite en producción (control de cupos, solapamiento de turnos, bloqueo por fuerza bruta en `/login`, caducidad de tokens y control de acceso por roles).
+  * Redacción, estructuración y mantenimiento de la documentación técnica y `README.md` a lo largo de las entregas del proyecto.
+
+
 # TurnoFlex
 
 > **Desarrollo de Sistemas Web - Back End** | IFTS N° 29
