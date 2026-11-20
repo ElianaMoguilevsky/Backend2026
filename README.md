@@ -1,4 +1,4 @@
-## 👩‍💻 Mis Aportes y Responsabilidades — Eliana Sarah Moguilevsky
+## Mis Aportes y Responsabilidades — Eliana Sarah Moguilevsky
 
 * **Seguridad, Autenticación y Gestión de Usuarios:**
   * Implementación del flujo completo de recuperación de contraseña mediante tokens temporales de un solo uso con vencimiento a 15 minutos (`crypto` + `Nodemailer`).
@@ -15,8 +15,9 @@
   * Diseño y ejecución de pruebas funcionales y de casos límite en producción (control de cupos, solapamiento de turnos, bloqueo por fuerza bruta en `/login`, caducidad de tokens y control de acceso por roles).
   * Redacción, estructuración y mantenimiento de la documentación técnica y `README.md` a lo largo de las entregas del proyecto.
 
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-# TurnoFlex
+## TurnoFlex
 
 > **Desarrollo de Sistemas Web - Back End** | IFTS N° 29
 > **Entrega Final** — 2° Cuatrimestre 2026
